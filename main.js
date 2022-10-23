@@ -1,6 +1,7 @@
 let catchMeButton = document.getElementById('catchMe');
 
 
+
 function catchMe() {
     let randNum = Math.floor(Math.random() * 4);
     catchMeButton.innerHTML = 'You got me';
@@ -24,10 +25,12 @@ function catchMe() {
     
 }
 
-catchMeButton.addEventListener('mouseenter', catchMe);
+//catchMeButton.addEventListener('mouseenter', catchMe);
+catchMeButton.addEventListener('mousemove', catchMe);
 
 function gotMe () {
     catchMeButton.innerHTML = 'catch me';
 }
 
 catchMeButton.addEventListener('mouseleave', gotMe);
+

@@ -132,7 +132,47 @@ h1 {
     background: rgba(20, 10, 20, 0.7);
     border-radius: 5rem;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 10rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#portfolio h2 {
+    width: 100%;
+}
+
+.pfImgContainer {
+    height: 15rem;
+    width: 15rem;
+    margin: 2rem;
+    margin-bottom: 3rem;
+   /* border-radius: 2rem;*/
+}
+
+.pfImgContainer img {
+    height: 90%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.pfImgContainer a {
+    text-decoration: none;
+    color: white;
+}
+
+.pfImgContainer p {
+    margin-bottom: 2rem;
+}
+
+/*.github {
+
+}*/
+
+.pfImgContainer a:hover {
+    color: orange;
 }
 
 footer {
@@ -145,4 +185,9 @@ footer {
 
 footer a {
     text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: orange;
 }

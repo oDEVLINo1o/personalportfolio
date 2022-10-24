@@ -1,5 +1,7 @@
 let catchMeButton = document.getElementById('catchMe');
+const theDate = document.getElementById('date');
 
+theDate.innerHTML = new Date().toDateString();
 
 
 function catchMe() {

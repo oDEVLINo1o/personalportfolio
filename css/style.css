@@ -124,7 +124,7 @@ h1 {
 .imgContainer img {
     height: 7rem;
     border-radius: 2rem;
-    margin-left: 0.5rem;
+    margin: 0.8rem;
 }
 
 #portfolio {
@@ -148,7 +148,7 @@ h1 {
     height: 15rem;
     width: 15rem;
     margin: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 8rem;
    /* border-radius: 2rem;*/
 }
 
@@ -164,7 +164,7 @@ h1 {
 }
 
 .pfImgContainer p {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 /*.github {
@@ -179,7 +179,7 @@ footer {
     background: rgba(20, 10, 20, 0.7);
     border-radius: 5rem;
     padding: 3rem 0;
-    position: relative;
+    position:relative;
     bottom: 0;
 }
 
